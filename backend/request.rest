@@ -8,7 +8,21 @@ POST http://localhost:5000/users
 Content-Type: application/json
 
 {
-    "name":"aji",
-    "email":"aji@gmail.com",
+    "name":"sheila",
+    "email":"sheila@gmail.com",
+    "gender":"Female"
+}
+
+###
+PATCH http://localhost:5000/users/63da19d79c399ac541f19a70
+Content-Type: application/json
+
+{
+    "name":"brams",
+    "email":"brams@gmail.com",
     "gender":"Male"
 }
+
+###
+DELETE http://localhost:5000/users/63da1b799c399ac541f19a73
+    
