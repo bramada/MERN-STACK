@@ -1,12 +1,14 @@
 GET http://localhost:5000/users
 
+###
+GET http://localhost:5000/users/63da19d79c399ac541f19a70
 
 ###
 POST http://localhost:5000/users
 Content-Type: application/json
 
 {
-    "name":"brmd",
-    "email":"brmd@gmail.com",
+    "name":"aji",
+    "email":"aji@gmail.com",
     "gender":"Male"
 }
