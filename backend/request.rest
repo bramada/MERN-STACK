@@ -18,8 +18,8 @@ PATCH http://localhost:5000/users/63da19d79c399ac541f19a70
 Content-Type: application/json
 
 {
-    "name":"brams",
-    "email":"brams@gmail.com",
+    "name":"aldo",
+    "email":"aaalll@gmail.com",
     "gender":"Male"
 }
 
